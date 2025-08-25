@@ -13,6 +13,7 @@ const portfolioItems = [
     title: "Geometric Mandala",
     artist: "Jazz Art",
     image: "/geometric-mandala-tattoo-black-and-white-intricate.png",
+    thumbnail: "/optimized/geometric-mandala-tattoo-black-and-white-intricate.webp",
     category: "geometric",
   },
   {
@@ -20,6 +21,7 @@ const portfolioItems = [
     title: "Realistic Portrait",
     artist: "Jazz Art",
     image: "/realistic-portrait-tattoo-black-and-grey-photoreal.png",
+    thumbnail: "/optimized/realistic-portrait-tattoo-black-and-grey-photoreal.webp",
     category: "realistic",
   },
   {
@@ -27,6 +29,7 @@ const portfolioItems = [
     title: "Traditional Rose",
     artist: "Jazz Art",
     image: "/traditional-rose-tattoo-bold-lines-classic-style.png",
+    thumbnail: "/optimized/traditional-rose-tattoo-bold-lines-classic-style.webp",
     category: "traditional",
   },
   {
@@ -34,6 +37,7 @@ const portfolioItems = [
     title: "Biomechanical Arm",
     artist: "Jazz Art",
     image: "/biomechanical-tattoo-arm-sleeve-futuristic-mechani.png",
+    thumbnail: "/optimized/biomechanical-tattoo-arm-sleeve-futuristic-mechani.webp",
     category: "biomechanical",
   },
   {
@@ -41,6 +45,7 @@ const portfolioItems = [
     title: "Watercolor Phoenix",
     artist: "Jazz Art",
     image: "/watercolor-phoenix-tattoo-vibrant-colors-artistic-.png",
+    thumbnail: "/optimized/watercolor-phoenix-tattoo-vibrant-colors-artistic-.webp",
     category: "watercolor",
   },
   {
@@ -48,6 +53,7 @@ const portfolioItems = [
     title: "Minimalist Line Art",
     artist: "Jazz Art",
     image: "/minimalist-line-art-tattoo-simple-elegant-design.png",
+    thumbnail: "/optimized/minimalist-line-art-tattoo-simple-elegant-design.webp",
     category: "minimalist",
   },
   {
@@ -55,6 +61,7 @@ const portfolioItems = [
     title: "Japanese Dragon",
     artist: "Jazz Art",
     image: "/japanese-dragon-tattoo-traditional-irezumi-style.png",
+    thumbnail: "/optimized/japanese-dragon-tattoo-traditional-irezumi-style.webp",
     category: "japanese",
   },
   {
@@ -62,6 +69,7 @@ const portfolioItems = [
     title: "Dotwork Skull",
     artist: "Jazz Art",
     image: "/dotwork-skull-tattoo-stippling-technique-detailed.png",
+    thumbnail: "/optimized/dotwork-skull-tattoo-stippling-technique-detailed.webp",
     category: "dotwork",
   },
 ]
@@ -91,7 +99,7 @@ export function Portfolio() {
   }))
 
   return (
-    <section id="portfolio" className="py-20 px-4">
+    <section id="portfolio" className="pt-20 px-4">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-black text-4xl md:text-6xl mb-6">
@@ -114,7 +122,7 @@ export function Portfolio() {
               }}
             >
               <Image
-                src={item.image || "/placeholder.svg"}
+                src={item.thumbnail || "/placeholder.svg"}
                 alt={item.title}
                 width={500} // Przykładowa szerokość, next/image zoptymalizuje
                 height={750} // Przykładowa wysokość, zachowuje proporcje
