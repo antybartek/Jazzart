@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/pro/Apps/Jazzart/app/layout\":[\"static/media/5d258b355fefebcb-s.p.woff2\",\"static/media/a88c13d5f58b71d4-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
