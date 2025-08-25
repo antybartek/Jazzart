@@ -23,7 +23,7 @@ const translations = {
 
     // Hero
     hero: {
-      title: "JAZZ ART",
+      title: "Jazz Art",
       subtitle: "Studio urody i tatuażu • Pracownia artystyczna",
       description:
         "Tworzymy wyjątkowe dzieła sztuki na Twojej skórze. Profesjonalne tatuaże, piercing i usługi kosmetyczne w sercu Krefeld.",
@@ -33,7 +33,7 @@ const translations = {
 
     // About
     about: {
-      title: "O JAZZ ART",
+      title: "O Jazz Art",
       description:
         "Jazz Art to salon tatuażu, gdzie artystyczna wizja spotyka się z technicznym mistrzostwem. Założony z pasją do przekształcania skóry w żywe płótna, specjalizujemy się w tworzeniu niestandardowych tatuaży, które opowiadają Twoją unikalną historię.",
       feature1: "Zadowolonych Klientów",
@@ -160,7 +160,7 @@ const translations = {
 
     // Hero
     hero: {
-      title: "JAZZ ART",
+      title: "Jazz Art",
       subtitle: "Schönheitsstudio und Tattoo • Künstlerische Werkstatt",
       description:
         "Wir schaffen einzigartige Kunstwerke auf Ihrer Haut. Professionelle Tattoos, Piercing und Kosmetikdienstleistungen im Herzen von Krefeld.",
@@ -170,7 +170,7 @@ const translations = {
 
     // About
     about: {
-      title: "ÜBER JAZZ ART",
+      title: "ÜBER Jazz Art",
       description:
         "Jazz Art ist ein Tattoo-Studio, wo künstlerische Vision auf technische Meisterschaft trifft. Gegründet mit der Leidenschaft, Haut in lebendige Leinwände zu verwandeln, spezialisieren wir uns auf die Erstellung maßgeschneiderter Tattoos, die Ihre einzigartige Geschichte erzählen.",
       feature1: "Zufriedene Kunden",
