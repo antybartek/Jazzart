@@ -19,8 +19,8 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/dark-moody-tattoo-salon-interior-with-tattoo-equip.png"
-          alt="Jazz Art Tattoo Salon Interior"
+          src="/jazzart.jpg"
+          alt="Professional tattoo artist at work"
           fill
           className="object-cover"
           priority
